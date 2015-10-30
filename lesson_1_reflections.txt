@@ -1,0 +1,27 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The FC command allowed me to filter out hundreds of lines of unchanged code so I could hone in on only what was different.  By showing what was in those lines in the previous version, it also made it easy to tell what the original code was supposed to do and why the new code wasn't doing that.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having access to the history of a file allows you to revert to an older working version if you break something; in some instances this could be faster and more effective than trying to find the bug and fix it.  It can also act as a crutch, allowing you to code faster with fewer worries because you know the worst that can happen is reverting to an earlier version; you know you won't destroy the whole project if you make a major mistake.  Additionally, it can give you an opportunity for reflection on your work and progress, potentially giving you a better perspective on how the project is coming along.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+The main downside of manually choosing when to commit is that you could forget to commit.  The upside is that (if you remember) you can make sure your commits are at logical intervals, focusing on adding one feature or fixing one bug per commit.  A major downside of automatic periodic committing is that you can end up with too many small commits, commits at logically odd junctures, and commits that won't even compile (like committing half-way through a line of code).
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Google Docs is assuming that each file is independent.  Also, changes in clear text documents (as opposed to code) generally don't interact in ways as complex as changes in multiple files of interacting code.
+
+How can you use the commands git log and git diff to view the history of files?
+
+[self explanatory]
+
+How might using version control make you more confident to make changes that could break something?
+
+[see answer to 2nd question]
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try to pull from an online repository, change something, then merge the changes back into the repository.
