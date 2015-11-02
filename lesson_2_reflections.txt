@@ -1,0 +1,7 @@
+What happens when you initialize a repository?  Why do you need to do it?
+
+Initializing a repository adds the metadata containers for the repository and tells git to treat the folder and its contents as a repository.
+
+How is the staging area different from the working directory and the repository?  What value do you think it offers?
+
+The staging area serves as an intermediate area between the working directory and repository, allowing the user to make sure they have selected the correct files to update in the repository before the commit.
